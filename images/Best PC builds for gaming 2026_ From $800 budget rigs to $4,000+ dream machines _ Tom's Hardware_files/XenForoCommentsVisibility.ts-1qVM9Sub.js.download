@@ -1,0 +1,1 @@
+import{c as e}from"../Util/VisibilityObserver/createVisibilityObserver.ts-DnC68hvX.js";!function(){const t=document.querySelector(".xenforo-comments-see-all"),o=document.querySelector('[id^="xenforo-comments-"]'),r=t||o;r&&e({element:r})}();

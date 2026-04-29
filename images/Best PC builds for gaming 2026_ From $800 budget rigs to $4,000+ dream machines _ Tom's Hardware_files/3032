@@ -1,0 +1,316 @@
+"use strict";(function(){try{var record=function(name,detail){aps.get(accountId).queue.push(new CustomEvent(name,{detail}))};const accountId="3032";window._aps=window._aps||new Map;const aps=window._aps;aps.has(accountId)||aps.set(accountId,{queue:[],store:new Map}),record("_config/requestViewerCountry/define",{"code":"NP"});record("analytics/sampling/set",{"rates":{"error":0.001,"status":0.0001}});record("a3pes/banner/activate",{"restrictions":{"allow":{"accountTypes":["ssw"]}}});record("idVendors/enabled/set",{"bidParameterKeys":["liveintent","merkle","intimateMerger","pair","amx","33across","fTrack","captify","publink","anonymised","quantcast","idPlus","unifiedid","ddb_key_638","fabrick","uid","criteo","yahoo","liveRamp","id5","pubcommon","audigent","lightPublisherAudiences","lotame"]});record("idVendors/integration/execute",{"accountId":"3032","sourceId":"3032","countryCode":"NP","vendorId":"33across","allowedRegions":["JP","US","AU","CA"],"blockedRegions":undefined,"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["techradar.com"],"script":function anonymous(
+) {
+["JP","US","AU","CA"]?["JP","US","AU","CA"].includes("NP")&&(function anonymous(
+) {
+var lexiconPropertyId = '0013300001kQj3GAAS';
+if (lexiconPropertyId && lexiconPropertyId.charAt(0) !== '%') {
+  if (!window._33AcrossIdMappingsProvider) {
+    createlexiconScript(lexiconPropertyId);
+  }
+}
+
+function createlexiconScript(id) {
+  var lexiconScript = document.createElement('script');
+  lexiconScript.src = 'https://cdn-ima.33across.com/ima.js';
+  lexiconScript['onload'] = function (e) {
+    const my33AcrossIdProvider = new _33AcrossIdMappingsProvider({
+      pid: id,
+      refreshInSeconds: 60 * 60 * 8,
+      expires: 90,
+      src: 'aps'
+    });
+
+    my33AcrossIdProvider.fetch();
+  };
+  document.head.appendChild(lexiconScript);
+}
+})():(!undefined||undefined&&!undefined.includes("NP"))&&(function anonymous(
+) {
+var lexiconPropertyId = '0013300001kQj3GAAS';
+if (lexiconPropertyId && lexiconPropertyId.charAt(0) !== '%') {
+  if (!window._33AcrossIdMappingsProvider) {
+    createlexiconScript(lexiconPropertyId);
+  }
+}
+
+function createlexiconScript(id) {
+  var lexiconScript = document.createElement('script');
+  lexiconScript.src = 'https://cdn-ima.33across.com/ima.js';
+  lexiconScript['onload'] = function (e) {
+    const my33AcrossIdProvider = new _33AcrossIdMappingsProvider({
+      pid: id,
+      refreshInSeconds: 60 * 60 * 8,
+      expires: 90,
+      src: 'aps'
+    });
+
+    my33AcrossIdProvider.fetch();
+  };
+  document.head.appendChild(lexiconScript);
+}
+})()
+},"propertyId":"0013300001kQj3GAAS"}],"defaultScript":function anonymous(
+) {
+["JP","US","AU","CA"]?["JP","US","AU","CA"].includes("NP")&&(function anonymous(
+) {
+var lexiconPropertyId = '0013300001kQj3GAAS';
+if (lexiconPropertyId && lexiconPropertyId.charAt(0) !== '%') {
+  if (!window._33AcrossIdMappingsProvider) {
+    createlexiconScript(lexiconPropertyId);
+  }
+}
+
+function createlexiconScript(id) {
+  var lexiconScript = document.createElement('script');
+  lexiconScript.src = 'https://cdn-ima.33across.com/ima.js';
+  lexiconScript['onload'] = function (e) {
+    const my33AcrossIdProvider = new _33AcrossIdMappingsProvider({
+      pid: id,
+      refreshInSeconds: 60 * 60 * 8,
+      expires: 90,
+      src: 'aps'
+    });
+
+    my33AcrossIdProvider.fetch();
+  };
+  document.head.appendChild(lexiconScript);
+}
+})():(!undefined||undefined&&!undefined.includes("NP"))&&(function anonymous(
+) {
+var lexiconPropertyId = '0013300001kQj3GAAS';
+if (lexiconPropertyId && lexiconPropertyId.charAt(0) !== '%') {
+  if (!window._33AcrossIdMappingsProvider) {
+    createlexiconScript(lexiconPropertyId);
+  }
+}
+
+function createlexiconScript(id) {
+  var lexiconScript = document.createElement('script');
+  lexiconScript.src = 'https://cdn-ima.33across.com/ima.js';
+  lexiconScript['onload'] = function (e) {
+    const my33AcrossIdProvider = new _33AcrossIdMappingsProvider({
+      pid: id,
+      refreshInSeconds: 60 * 60 * 8,
+      expires: 90,
+      src: 'aps'
+    });
+
+    my33AcrossIdProvider.fetch();
+  };
+  document.head.appendChild(lexiconScript);
+}
+})()
+},"defaultPropertyId":"0013300001kQj3GAAS"});record("idVendors/integration/execute",{"accountId":"3032","sourceId":"3032","countryCode":"NP","vendorId":"id5","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["techradar.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NP")&&(function anonymous(
+) {
+var id5PropertyId = '455';
+if (id5PropertyId && id5PropertyId.charAt(0) !== '%') {
+    var id5Script = document.createElement('script');
+    id5Script.src = '//cdn.id5-sync.com/api/1.0/id5-api.js';
+    id5Script['onload'] = function(e) { 
+        ID5.init({ partnerId: Number(id5PropertyId) , provider: 'aps' })
+    };
+    document.head.appendChild(id5Script);
+}
+})():(!["BR"]||["BR"]&&!["BR"].includes("NP"))&&(function anonymous(
+) {
+var id5PropertyId = '455';
+if (id5PropertyId && id5PropertyId.charAt(0) !== '%') {
+    var id5Script = document.createElement('script');
+    id5Script.src = '//cdn.id5-sync.com/api/1.0/id5-api.js';
+    id5Script['onload'] = function(e) { 
+        ID5.init({ partnerId: Number(id5PropertyId) , provider: 'aps' })
+    };
+    document.head.appendChild(id5Script);
+}
+})()
+},"propertyId":"455"}],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("NP")&&(function anonymous(
+) {
+var id5PropertyId = '455';
+if (id5PropertyId && id5PropertyId.charAt(0) !== '%') {
+    var id5Script = document.createElement('script');
+    id5Script.src = '//cdn.id5-sync.com/api/1.0/id5-api.js';
+    id5Script['onload'] = function(e) { 
+        ID5.init({ partnerId: Number(id5PropertyId) , provider: 'aps' })
+    };
+    document.head.appendChild(id5Script);
+}
+})():(!["BR"]||["BR"]&&!["BR"].includes("NP"))&&(function anonymous(
+) {
+var id5PropertyId = '455';
+if (id5PropertyId && id5PropertyId.charAt(0) !== '%') {
+    var id5Script = document.createElement('script');
+    id5Script.src = '//cdn.id5-sync.com/api/1.0/id5-api.js';
+    id5Script['onload'] = function(e) { 
+        ID5.init({ partnerId: Number(id5PropertyId) , provider: 'aps' })
+    };
+    document.head.appendChild(id5Script);
+}
+})()
+},"defaultPropertyId":"455"});record("idVendors/integration/execute",{"accountId":"3032","sourceId":"3032","countryCode":"NP","vendorId":"liveRamp","allowedRegions":undefined,"blockedRegions":undefined,"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["techradar.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NP")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveRamp__ = false;}})();
+})():(!undefined||undefined&&!undefined.includes("NP"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveRamp__ = false;}})();
+})()
+},"propertyId":"12243"}],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("NP")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveRamp__ = false;}})();
+})():(!undefined||undefined&&!undefined.includes("NP"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveRamp__ = false;}})();
+})()
+},"defaultPropertyId":"12243"});record("idVendors/integration/execute",{"accountId":"3032","sourceId":"3032","countryCode":"NP","vendorId":"lotame","allowedRegions":undefined,"blockedRegions":["AR","BZ","BO","BR","CL","CO","CR","CU","DO","EC","SV","GT","GY","HT","HN","MX","NI","PA","PY","PE","SR","UY","VE","AW","GF","PR"],"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["techradar.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NP")&&(function anonymous(
+) {
+if (!window['lotame_sync_16576']) {
+  var lotameClientId = '16576';
+
+  initLotame(lotameClientId);
+  createLotameScript(lotameClientId);
+
+  function initLotame(propertyId) {
+    var lotameConfig = {};
+    var namespace = window['lotame_sync_' + propertyId] = {};
+    namespace.config = lotameConfig;
+    namespace.data = {};
+    namespace.cmd = namespace.cmd || [];
+
+    namespace.cmd.push(function () {
+      namespace.sync();
+    });
+  };
+
+  function createLotameScript(propertyId) {
+    var lotameSyncUrl = "https://tags.crwdcntrl.net/lt/c/" + propertyId + "/sync.min.js";
+    var lotameScriptTag = document.createElement('script');
+    lotameScriptTag.src = lotameSyncUrl;
+    document.head.appendChild(lotameScriptTag);
+  };
+}
+})():(!["AR","BZ","BO","BR","CL","CO","CR","CU","DO","EC","SV","GT","GY","HT","HN","MX","NI","PA","PY","PE","SR","UY","VE","AW","GF","PR"]||["AR","BZ","BO","BR","CL","CO","CR","CU","DO","EC","SV","GT","GY","HT","HN","MX","NI","PA","PY","PE","SR","UY","VE","AW","GF","PR"]&&!["AR","BZ","BO","BR","CL","CO","CR","CU","DO","EC","SV","GT","GY","HT","HN","MX","NI","PA","PY","PE","SR","UY","VE","AW","GF","PR"].includes("NP"))&&(function anonymous(
+) {
+if (!window['lotame_sync_16576']) {
+  var lotameClientId = '16576';
+
+  initLotame(lotameClientId);
+  createLotameScript(lotameClientId);
+
+  function initLotame(propertyId) {
+    var lotameConfig = {};
+    var namespace = window['lotame_sync_' + propertyId] = {};
+    namespace.config = lotameConfig;
+    namespace.data = {};
+    namespace.cmd = namespace.cmd || [];
+
+    namespace.cmd.push(function () {
+      namespace.sync();
+    });
+  };
+
+  function createLotameScript(propertyId) {
+    var lotameSyncUrl = "https://tags.crwdcntrl.net/lt/c/" + propertyId + "/sync.min.js";
+    var lotameScriptTag = document.createElement('script');
+    lotameScriptTag.src = lotameSyncUrl;
+    document.head.appendChild(lotameScriptTag);
+  };
+}
+})()
+},"propertyId":undefined}],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("NP")&&(function anonymous(
+) {
+if (!window['lotame_sync_16576']) {
+  var lotameClientId = '16576';
+
+  initLotame(lotameClientId);
+  createLotameScript(lotameClientId);
+
+  function initLotame(propertyId) {
+    var lotameConfig = {};
+    var namespace = window['lotame_sync_' + propertyId] = {};
+    namespace.config = lotameConfig;
+    namespace.data = {};
+    namespace.cmd = namespace.cmd || [];
+
+    namespace.cmd.push(function () {
+      namespace.sync();
+    });
+  };
+
+  function createLotameScript(propertyId) {
+    var lotameSyncUrl = "https://tags.crwdcntrl.net/lt/c/" + propertyId + "/sync.min.js";
+    var lotameScriptTag = document.createElement('script');
+    lotameScriptTag.src = lotameSyncUrl;
+    document.head.appendChild(lotameScriptTag);
+  };
+}
+})():(!["AR","BZ","BO","BR","CL","CO","CR","CU","DO","EC","SV","GT","GY","HT","HN","MX","NI","PA","PY","PE","SR","UY","VE","AW","GF","PR"]||["AR","BZ","BO","BR","CL","CO","CR","CU","DO","EC","SV","GT","GY","HT","HN","MX","NI","PA","PY","PE","SR","UY","VE","AW","GF","PR"]&&!["AR","BZ","BO","BR","CL","CO","CR","CU","DO","EC","SV","GT","GY","HT","HN","MX","NI","PA","PY","PE","SR","UY","VE","AW","GF","PR"].includes("NP"))&&(function anonymous(
+) {
+if (!window['lotame_sync_16576']) {
+  var lotameClientId = '16576';
+
+  initLotame(lotameClientId);
+  createLotameScript(lotameClientId);
+
+  function initLotame(propertyId) {
+    var lotameConfig = {};
+    var namespace = window['lotame_sync_' + propertyId] = {};
+    namespace.config = lotameConfig;
+    namespace.data = {};
+    namespace.cmd = namespace.cmd || [];
+
+    namespace.cmd.push(function () {
+      namespace.sync();
+    });
+  };
+
+  function createLotameScript(propertyId) {
+    var lotameSyncUrl = "https://tags.crwdcntrl.net/lt/c/" + propertyId + "/sync.min.js";
+    var lotameScriptTag = document.createElement('script');
+    lotameScriptTag.src = lotameSyncUrl;
+    document.head.appendChild(lotameScriptTag);
+  };
+}
+})()
+},"defaultPropertyId":undefined});record("idVendors/integration/execute",{"accountId":"3032","sourceId":"3032","countryCode":"NP","vendorId":"liveintent","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["techradar.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NP")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NP"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"001G000000iBcJIIA0"}],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("NP")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NP"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"defaultPropertyId":"001G000000iBcJIIA0"});record("idVendors/integration/execute",{"accountId":"3032","sourceId":"3032","countryCode":"NP","vendorId":"lightPublisherAudiences","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["techradar.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NP")&&(function anonymous(
+) {
+if (typeof apstag.rr === 'function') {
+  apstag.rr({ 'methods': [{'type':'email','method':'URL','target':'lrh'},{'type':'email','method':'CSS','target':'.emailform > .input__wrapper > #emailFormEmail,.newsletter-form__form > .form__email-input','event':'click','eventTarget':'.emailform > .submit__wrapper > .submit__button,.newsletter-form__form > .form__submit-input'}] });
+}
+})():(!["BR"]||["BR"]&&!["BR"].includes("NP"))&&(function anonymous(
+) {
+if (typeof apstag.rr === 'function') {
+  apstag.rr({ 'methods': [{'type':'email','method':'URL','target':'lrh'},{'type':'email','method':'CSS','target':'.emailform > .input__wrapper > #emailFormEmail,.newsletter-form__form > .form__email-input','event':'click','eventTarget':'.emailform > .submit__wrapper > .submit__button,.newsletter-form__form > .form__submit-input'}] });
+}
+})()
+},"propertyId":"{ 'methods': [{'type':'email','method':'URL','target':'lrh'},{'type':'email','method':'CSS','target':'.emailform > .input__wrapper > #emailFormEmail,.newsletter-form__form > .form__email-input','event':'click','eventTarget':'.emailform > .submit__wrapper > .submit__button,.newsletter-form__form > .form__submit-input'}] }"}],"defaultScript":undefined,"defaultPropertyId":undefined});record("_config/config/didLoad",undefined)}catch(e){console.error(e)}})();
